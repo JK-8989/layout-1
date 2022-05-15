@@ -1,0 +1,46 @@
+
+.container {
+  width: 700px;
+  margin: auto;
+  line-height: 1.8;
+  display: grid;
+  grid-template-areas: 
+  'a a a a'
+  'b b c c'
+  'b b c c'
+  'd d d d';
+}
+.header {
+  height: 200px;
+}
+.footer {
+  height: 200px;
+}
+#yoga-left {
+  float: right;
+  width: 230px;
+  shape-outside: polygon(169px 613px, 173px 530px, 162px 458px, 115px 452px, 83px 466px, 0px 435px, 0px 392px, 36px 355px, 125px 331px, 138px 292px, 102px 257px, 122px 158px, 157px 140px, 152px 109px, 170px 34px, 230px 0px, 257px 414px, 254px 490px, 260px 601px, 224px 666px, 247px 691px, 227px 718px, 170px 714px);
+}
+#yoga-right {
+  float: left;
+  width: 88px;
+  shape-outside: polygon(-4px 9px, 46px 43px, 60px 115px, 46px 145px, 74px 156px, 93px 188px, 100px 249px, 98px 283px, 77px 301px, 51px 300px, 64px 403px, 25px 502px, 37px 601px, 8px 612px, -2px 598px);
+}
+#p-left {
+  text-align: right;
+  margin-top: 60px;
+}
+#p-right {
+  margin-top: 77px;
+}
+p {
+  margin-top: 100px 0 200px 0;
+  font-size: 0.8em;
+}
+#p-left::first-letter {
+  font-size: 2.5em;
+}
+div:nth-child(1){grid-area: a;}
+div:nth-child(2){grid-area: b;}
+div:nth-child(3){grid-area: c;}
+div:nth-child(4){grid-area: d;}
