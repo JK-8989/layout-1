@@ -4,6 +4,7 @@
   margin: auto;
   line-height: 1.8;
   display: grid;
+  opacity: 0.9;
   grid-template-areas: 
   'a a a a'
   'b b c c'
@@ -37,12 +38,15 @@ p {
   margin-top: 100px 0 200px 0;
   font-size: 0.8em;
 }
-#p-left::first-letter {
+.yoga {
   font-size: 2.5em;
 }
-#bold {
-  font-size: 1.5em;
+.bold {
+  font-size: 1.6em;
 }
+/* #p-left::first-letter {
+  font-size: 2.5em;
+} */
 div:nth-child(1){grid-area: a;}
 div:nth-child(2){grid-area: b;}
 div:nth-child(3){grid-area: c;}
