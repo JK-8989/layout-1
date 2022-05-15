@@ -1,4 +1,4 @@
-# image with texts around it
+# Centered image with texts around it
 
 This project was to create a layout which **an image is placed in the middle of text contents and the texts wrap around the image according to its shape**.
 
