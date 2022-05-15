@@ -12,9 +12,9 @@ CSS 'float' with 'shape-outside: polygon()' can work for this project but the is
 
 Then **'shape-outside: polygon()'** was used to wrap texts around the image. 
  
- # Thoughts
+ ## Thoughts
  
-This project was fun to experiment. It was good to see another possiblility of what 'grid' ('flex', too) can offer. Also '{shape-ouside: polugon()}' gives text design more flavours - like it very much!.
+This project was fun to experiment. It was good to see another possibility of what 'grid' ('flex', too) can offer. Also '{shape-outside: polygon()}' gives text design more flavours - like it very much!.
  
 One thing that I wondered was how to write in 'alt' attribute for the images. Since the image had to split into halves, I wasn't so sure about what to wrote for each. Perhaps, 'an half image of xxxx' ??!??!? Any recommendations?
 

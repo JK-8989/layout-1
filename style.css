@@ -44,9 +44,7 @@ p {
 .bold {
   font-size: 1.6em;
 }
-/* #p-left::first-letter {
-  font-size: 2.5em;
-} */
+
 div:nth-child(1){grid-area: a;}
 div:nth-child(2){grid-area: b;}
 div:nth-child(3){grid-area: c;}
